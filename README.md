@@ -367,7 +367,7 @@ As before, you should verify that the output of the first `ls` and second `ls` d
 > For your homework, you will need to generate some gnuplot scripts,
 > and you can easily do this with a command like
 > ```
-> $ alias make_gnuplot="llm -x -s 'generate the specified gnuplot script only; do not provide any other output such as markdown code blocks or explanations'
+> $ alias make_gnuplot="llm -x -s 'generate the specified gnuplot script only; do not provide any other output such as markdown code blocks or explanations'"
 > $ make_gnuplot 'describe your plot here' > plt.gp
 > ```
 > It might be worth playing around with this right now and adding the `make_gnuplot` command to your bashrc.
